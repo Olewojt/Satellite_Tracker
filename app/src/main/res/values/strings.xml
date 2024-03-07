@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SatelliteTracker</string>
+    <string name="button_exit_preview">Powrót</string>
+    <string name="user_elevation_text">user_elev</string>
+    <string name="user_azimuth_text">user_azi</string>
+    <string name="target_azimuth_text">target_azi</string>
+    <string name="target_elevation_text">target_elev</string>
+    <string name="btn_no_permissions">Zezwól</string>
+    <string name="no_permissions">
+        Aby aplikacja działała prawidłowo, potrzebny jest dostęp do lokalizacji, internetu oraz aparatu.
+        Dostęp do internetu umożliwia pobieranie danych z API,
+        Dostęp do lokalizacji pozwala zlokalizować satelity,
+        Dostęp do aparatu pozwala zwizualizować gdzie znajduje się satelita na niebie.
+    </string>
+
+    <string name="title">
+        Wykrywacz\n
+        Satelit 📡
+    </string>
+
+    <string name="gps">Twoja lokalizacja 📌</string>
+    <string name="gps_placeholder_lat">Szerokość</string>
+    <string name="gps_placeholder_lng">Długość</string>
+    <string name="gps_placeholder_alt">Wysokość</string>
+
+    <string name="btn_refresh">Odśwież 🔃</string>
+    <string name="btn_satellite_list">Lista satelit 🛰️</string>
+    <string name="btn_flashlight">Latarka 🔦</string>
+
+    <string name="satellite_list_text">Satelity</string>
+
+    <string name="satellite_info_name">Nazwa satelity</string>
+    <string name="satellite_info_operator">Operator</string>
+    <string name="satellite_info_user">Zastosowanie</string>
+    <string name="satellite_info_norad">NORAD ID</string>
+    <string name="satellite_info_lat">Szerokość</string>
+    <string name="satellite_info_lng">Długość</string>
+    <string name="satellite_info_azi">Azymut</string>
+    <string name="satellite_info_elev">Nachylenie</string>
+    <string name="satellite_info_ra">Rektascensja</string>
+    <string name="satellite_info_dec">Deklinacja</string>
+    <string name="satellite_info_btn">Lokalizuj</string>
+
+    <string name="tooltip_operator">Aktualny operator satelity</string>
+    <string name="tooltip_user">Przeznaczenie satelity</string>
+    <string name="tooltip_norad">Numer id nadawany przez NORAD(North American Aerospace Defense Command)</string>
+    <string name="tooltip_lat">Szerokość geograficzna</string>
+    <string name="tooltip_lng">Długość geograficzna</string>
+    <string name="tooltip_azi">Azymut względem obecnej lokalizacji</string>
+    <string name="tooltip_elev">Nachylenie względem obecnej lokalizacji</string>
+    <string name="tooltip_ra">Kąt dwuścienny pomiędzy płaszczyzną koła godzinnego punktu równonocy wiosennej a płaszczyzną koła godzinnego obiektu</string>
+    <string name="tooltip_dec">Kąt pomiędzy kierunkiem poprowadzonym od obserwatora do obiektu a płaszczyzną równika niebieskiego</string>
+</resources>

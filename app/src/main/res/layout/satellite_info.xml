@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#BDBDBD"
+    android:orientation="vertical"
+    android:tooltipText="@string/tooltip_norad">
+
+    <TextView
+        android:id="@+id/text_satinfo_name"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/title"
+        android:gravity="center"
+        android:text="@string/satellite_info_name"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0074CD"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/satellite_info_operator"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:tooltipText="@string/tooltip_operator" />
+
+        <TextView
+            android:id="@+id/text_satinfo_operator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#1F72B3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0074CD"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/satellite_info_user"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:tooltipText="@string/tooltip_user" />
+
+        <TextView
+            android:id="@+id/text_satinfo_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#1F72B3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0074CD"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/satellite_info_norad"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_satinfo_norad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#1F72B3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0074CD"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/satellite_info_lat"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:tooltipText="@string/tooltip_lat" />
+
+        <TextView
+            android:id="@+id/text_satinfo_lat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#1F72B3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0074CD"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/satellite_info_lng"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:tooltipText="@string/tooltip_lng" />
+
+        <TextView
+            android:id="@+id/text_satinfo_lng"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#1F72B3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0074CD"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/satellite_info_azi"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:tooltipText="@string/tooltip_azi" />
+
+        <TextView
+            android:id="@+id/text_satinfo_azi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#1F72B3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0074CD"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/satellite_info_elev"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:tooltipText="@string/tooltip_elev" />
+
+        <TextView
+            android:id="@+id/text_satinfo_elev"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#1F72B3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/button_locate"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:background="#219318"
+        android:text="@string/satellite_info_btn"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
